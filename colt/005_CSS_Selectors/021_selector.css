@@ -1,0 +1,72 @@
+/* * {
+    color: brown;
+    background-color: lightcyan;
+} */
+
+button {
+    font-size: larger;
+}
+
+.tags {
+    color: rebeccapurple;
+    background-color: aliceblue;
+}
+
+.post a {
+    color: darkgreen;
+    text-decoration: wavy darkgoldenrod underline;
+}
+
+input + button {
+    background-color: pink;
+    color: blue;
+}
+
+h2 + button {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: blue;
+    color: aquamarine;
+}
+
+footer > a {
+    background-color: brown;
+    color: white;
+}
+
+input[type = "password"] {
+    color: brown;
+    background-color: yellowgreen;
+    margin: 1%;
+}
+
+
+.post button:hover {
+    background-color: darkred;
+    color: aliceblue;
+    text-decoration: wavy underline lightblue;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.post {
+    background-color: #ffafcc;
+    color: #509205;
+}
+
+h2::first-letter {
+    font-size: xx-large;
+}
+
+
+p::selection {
+    background-color: brown;
+}
+
+h2::selection {
+    background-color: brown;
+}
+
+h1,h2 {
+    color: darkblue;
+}
